@@ -186,3 +186,11 @@ span.text-content {
   -o-transition: opacity 500ms;
   transition: opacity 500ms;
 }
+
+.footer {
+  bottom: 0px;
+  width: 100%;
+  height: 96px;
+  margin-top: 60px;
+  background-color: #2196F3;
+}
