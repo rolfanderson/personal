@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css?family=Varela+Round');
+
+/*** Sidebar ***/
+#sidebar-toggle-btn {
+  position: absolute;
+  left: 24px;
+  top: 24px;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+#table-contents i.mdi {
+  position: relative;
+  top: 1px;
+  padding-right: 11px;
+}
+
+#sidebar {
+  position: fixed;
+  display: block;
+  padding-top: 0px;
+  width: 0px;
+  height: 100%;
+  max-width: 100%;
+  float: left;
+  box-shadow: 10px 0 10px rgba(0,0,0,0.5);
+  z-index: 5;
+  transition: 0.5s;
+}
+
+#sidebar-backdrop {
+  cursor: pointer;
+}
+
+#toc {
+  margin: 0px;
+  border: none;
+  border-radius: 0px;
+  -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.panel-heading{
+   width: 250px;
+   height: 105px;
+   padding: 10px 15px;
+   background-color: #EFEFEF !important;
+   border-bottom: 0.5px solid #aeaeae !important;
+   border-radius: 0px !important;
+}
+
+.panel-body{
+  width: 250px;
+}
+
+.pre-scrollable {
+  max-height: none;
+}
+
+.feature-row {
+  cursor: pointer;
+  width: 250px;
+}
+.sidebar-wrapper {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background-color: #EFEFEF;
+}
+.sidebar-table {
+  position: absolute;
+  width: 100%;
+  top: 103px;
+  bottom: 0px;
+  overflow: auto;
+}
+
+.table {
+  margin-bottom: 0px;
+}
+
+.modal-backdrop {
+  height: 100%;
+  width: auto;
+  opacity: 0.5;
+  z-index: 3;
+}
+
+.logo {
+  display: block;
+  margin: 0 auto;
+}
+
+.navbar-link a {
+  border-left: none;
+  border-bottom: none;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  background-color: #EFEFEF;
+  color: #000;
+  display: block;
+  padding: 15px;
+  line-height: 15px;
+  text-decoration: none;
+}
+
+.navbar-link a:hover {
+  border-left: none;
+  border-bottom: none;
+  color: #fff;
+  background-color: #2196F3;
+}
+
+.sublink a {
+  font-size: 13px;
+  font-weight: 400;
+  padding-left: 30px;
+}
+
+.sublink a:hover {
+  background-color: #EFEFEF;
+  color: #2196F3;
+}

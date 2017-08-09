@@ -1,0 +1,12 @@
+#header, .navbar-link a:hover {
+  background-color: #F44336;
+}
+
+.sublink a:hover {
+  background-color: #EFEFEF;
+  color: #F44336;
+}
+
+.title {
+  color: #F44336;
+}

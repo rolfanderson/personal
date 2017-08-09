@@ -1,5 +1,188 @@
-#side-panel {
-  background-color: #757575;
-  height: 100vh;
-  width: 250px;
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+@import url('https://fonts.googleapis.com/css?family=Varela+Round');
+
+body {
+  background-color: #f1f1f1;
+  height: 100%;
+  width: 100%;
+}
+
+p {
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.navbar-link a {
+  border-bottom: 1px solid #474441;
+  border-left: 4px solid #34302D;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 16px;
+  color: #f1f1f1;
+  display: block;
+  padding: 15px;
+  line-height: 15px;
+  text-decoration: none;
+}
+
+.navbar-link a:hover {
+  border-left: 4px solid #2196F3;
+}
+
+.header-text {
+  line-height: 200px;
+  padding-left: 195.328px;
+  margin: 0 auto;
+  white-space: nowrap;
+}
+
+.text-wrap {
+  padding-left: 150px;
+  margin: 0 auto;
+}
+
+.content {
+  padding-right: 150px;
+}
+
+.title {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  color: #2196F3;
+}
+
+#sidebar-nav {
+  /*box-shadow: 3px 0 5px rgba(0,0,0,0.3);*/
+}
+
+.sidenav {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0;
+  left: 0;
+  background-color: #34302D; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 0px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+.panel-header {
+  position: relative;
+  height: 125px;
+  width: 200px;
+  margin: 0;
+  padding: 0;
+  border-bottom: 1px solid #474441;
+}
+
+.panel-header td {
+  vertical-align: middle;
+  text-align: center;
+}
+
+#panel-img {
+  height: 80px;
+  width: 80px;
+}
+
+.navigation-list {
+
+}
+
+#main {
+  transition: margin-left .5s;
+}
+
+#header {
+  height: 200px;
+  background-color: #2196F3;
+  color: #fff;
+}
+
+#header-text {
+  margin-top: 110px;
+}
+
+#menu-icon {
+  position: relative;
+  top: 25px;
+  left: 40px;
+  padding: 0;
+  margin: 0;
+  float: left;
+  cursor: pointer;
+}
+
+ul.img-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+ul.img-list li {
+  display: inline-block;
+  height: 150px;
+  margin-top: 80px;
+  margin-left: 40px;
+  margin-right: 40px;
+  position: relative;
+  width: 150px;
+  border-radius: 100%;
+
+}
+
+span.text-content {
+  background: rgba(0,0,0,0.5);
+  border-radius: 100%;
+  overflow: hidden;
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 150px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 150px;
+}
+
+span.text-content span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+span.text-content {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 150px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 150px;
+  opacity: 0;
+}
+
+ul.img-list li:hover span.text-content {
+  opacity: 1;
+}
+
+span.text-content {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 150px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 150px;
+  opacity: 0;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
 }
