@@ -1,14 +1,16 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans");
 @import url('https://fonts.googleapis.com/css?family=Varela+Round');
 
+html {
+  height: 100%;
+}
+
 body {
   position: relative;
   margin: 0;
   padding-bottom: 96px;
   min-height: 100%;
   background-color: #f1f1f1;
-  height: 100%;
-  width: 100%;
 }
 
 p {
