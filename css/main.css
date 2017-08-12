@@ -20,6 +20,10 @@ p {
   line-height: 30px;
 }
 
+.navbar {
+  border-radius: none;
+}
+
 .navbar-link a {
   border-bottom: 1px solid #474441;
   border-left: 4px solid #34302D;
