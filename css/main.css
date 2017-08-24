@@ -20,8 +20,18 @@ p {
   line-height: 30px;
 }
 
-.navbar {
-  border-radius: none;
+.navbar-inverse {
+  height: 60px;
+  border: none;
+  border-radius: 0;
+  background-color: #2196F3;
+  margin: 0;
+  z-index: 1;
+}
+
+.container-fluid {
+  padding: 0;
+  margin: 0;
 }
 
 .navbar-link a {
@@ -40,13 +50,6 @@ p {
   border-left: 4px solid #2196F3;
 }
 
-.header-text {
-  line-height: 200px;
-  padding-left: 195.328px;
-  margin: 0 auto;
-  white-space: nowrap;
-}
-
 .text-wrap {
   padding-left: 150px;
   margin: 0 auto;
@@ -62,21 +65,18 @@ p {
   color: #2196F3;
 }
 
-#sidebar-nav {
-  /*box-shadow: 3px 0 5px rgba(0,0,0,0.3);*/
-}
-
-.sidenav {
-  height: 100%; /* 100% Full-height */
-  width: 0; /* 0 width - change this with JavaScript */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Stay on top */
-  top: 0;
-  left: 0;
-  background-color: #34302D; /* Black*/
-  overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 0px; /* Place content 60px from the top */
-  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+#sidebar {
+  position: absolute;
+  display: block;
+  padding-top: 0px;
+  width: 0px;
+  height: 100%;
+  max-width: 100%;
+  float: left;
+  box-shadow: 10px 0 10px rgba(0,0,0,0.5);
+  z-index: 100;
+  transition: 0.5s;
+  overflow: hidden;
 }
 
 .panel-header {
@@ -104,17 +104,21 @@ p {
 
 #main {
   transition: margin-left .5s;
+  padding: 0;
 }
 
 #header {
   height: 200px;
+  width: 100%;
+  padding: 0;
   margin: 0 auto;
   background-color: #2196F3;
   color: #fff;
+  z-index: 1;
 }
 
-#header-text {
-  margin-top: 110px;
+.header-text {
+  margin-top: 130px;
 }
 
 #menu-icon {
@@ -208,6 +212,7 @@ span.text-content {
   width: 100%;
   height: 96px;
   margin-top: 120px;
+  padding-top: 80px;
   background-color: #2196F3;
 }
 
@@ -217,4 +222,5 @@ span.text-content {
 
 .main-text {
   padding-bottom: 80px;
+  margin-bottom: 100px;
 }
