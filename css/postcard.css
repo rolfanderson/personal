@@ -1,12 +1,12 @@
-#header, .navbar-link a:hover, .footer {
+.navbar, #header, .footer {
   background-color: #c56c39;
 }
 
-.sublink a:hover {
-  background-color: #EFEFEF;
+.title, .active a {
   color: #c56c39;
 }
 
-.title {
-  color: #c56c39;
+.next {
+  background-color: #00897B;
+  width: 30%;
 }

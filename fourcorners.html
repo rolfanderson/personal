@@ -19,46 +19,56 @@
   </head>
 
   <body>
-    <div class="#">
-
-      <div class="modal-backdrop" hidden="true" id="sidebar-backdrop"></div>
-      <div id="container">
-        <div id="sidebar" class="pre-scrollable">
-          <div class="sidebar-wrapper">
-            <div class="panel panel-default" id="toc">
-              <div class="panel-heading">
-                <img class="img-circle logo clickable-row" src="img/button-home.png" data-href="index.html" width="80" height="80"></img>
-              </div>
-              <div id="table-contents">
-                <table class="table table-hover">
-                  <nav class="list">
-                    <div class="navbar-link"><span class="text-nowrap"><a href="index.html">Home</a></span></div>
-                    <div class="navbar-link"><span class="text-nowrap"><a href="maps.html">Maps</a></span></div>
+    <div class="modal-backdrop" hidden="true" id="sidebar-backdrop"></div>
+    <div id="container">
+      <div id="sidebar" class="pre-scrollable">
+        <div class="sidebar-wrapper">
+          <div class="panel panel-default" id="toc">
+            <div class="panel-heading">
+              <img class="img-circle logo clickable-row" src="img/button-home.png" data-href="index.html" width="80" height="80"></img>
+            </div>
+            <div id="table-contents">
+              <table class="table table-hover">
+                <nav class="list">
+                  <div class="navbar-link" data-toggle="collapse" data-target="#projects-submenu"><span class="text-nowrap"><a>Projects</a></span></div>
+                    <div id="projects-submenu" class="collapse in">
+                      <div class="navbar-link sublink"><span class="text-nowrap"><a href="postcard.html">Post Card</a></span></div>
+                      <div class="navbar-link sublink active"><span class="text-nowrap"><a href="fourcorners.html">Four Corners</a></span></div>
+                      <div class="navbar-link sublink"><span class="text-nowrap"><a href="statepark.html">State Park</a></span></div>
+                      <div class="navbar-link sublink"><span class="text-nowrap"><a href="deathtour.html">Death Tour</a></span></div>
+                      <div class="navbar-link sublink"><span class="text-nowrap"><a href="utbaph.html">UTBAPH</a></span></div>
+                    </div>
+                  <div class="navbar-link" data-toggle="collapse" data-target="#maps-submenu"><span class="text-nowrap"><a>Maps</a></span></div>
+                    <div id="maps-submenu" class="collapse">
                       <div class="navbar-link sublink"><span class="text-nowrap"><a href="postcardmap.html">Post Card</a></span></div>
                       <div class="navbar-link sublink"><span class="text-nowrap"><a href="fourcornersmap.html">Four Corners</a></span></div>
                       <div class="navbar-link sublink"><span class="text-nowrap"><a href="stateparkmap.html">State Park</a></span></div>
                       <div class="navbar-link sublink"><span class="text-nowrap"><a href="deathtourmap.html">Death Tour</a></span></div>
                       <div class="navbar-link sublink"><span class="text-nowrap"><a href="utbaphmap.html">UTBAPH</a></span></div>
-                    <div class="navbar-link"><span class="text-nowrap"><a href="index.html">Contact</a></span></div>
-                    <div class="navbar-link"><span class="text-nowrap"><a href="index.html">CV</a></span></div>
-                  </nav>
-                </table>
-              </div>
+                    </div>
+                  <div class="navbar-link"><span class="text-nowrap"><a href="index.html">Contact</a></span></div>
+                  <div class="navbar-link"><span class="text-nowrap"><a href="index.html">CV</a></span></div>
+                </nav>
+              </table>
             </div>
           </div>
         </div>
       </div>
-        <div class="#" id="main">
-          <div id="header">
-            <div class="row">
-              <div id="sidebar-toggle-btn"><i class="mdi mdi-menu" aria-hidden="true" onclick="openNav()"></i></div>
-            </div>
-            <div class="row">
-              <div class="col-md-9 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
-                <h1 id="header-text">36.998976, -109.045172</h1>
-              </div>
-            </div>
-          </div>
+    </div>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <div id="sidebar-toggle-btn"><i class="mdi mdi-menu" aria-hidden="true" onclick="openNav()"></i></div>
+        </div>
+      </div>
+    </div>
+    <div id="header">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+          <h1 class="header-text">36.998976, -109.045172&nbsp;<a href="fourcornersmap.html" target="_blank"><i class="mdi mdi-open-in-new"></i></a></h1>
+        </div>
+      </div>
+    </div>
 
           <ul class="img-list">
             <li>
@@ -92,19 +102,51 @@
 
             <h2 class="title">Abstract</h2>
 
-            <p>Intended for Cynthia Barnett's Adventure Journalism course,
+            <p>Intended for Cynthia Barnett's Environmental Journalism course,
             "36.998976, -109.045172," or simply "Four Corners," certainly
             demonstrates the spatial theories discussed throughout the project.
             This piece, however, focuses more on the natural and cultural
             history of place, taking Barnett's <i>Rain</i> as a model.</p>
+
+            <p>Phasellus in accumsan augue, quis sollicitudin enim. Sed tempor est quis nisl
+            tristique, bibendum euismod eros posuere. Pellentesque sed maximus risus, quis
+            aliquet felis. Vestibulum pellentesque sodales feugiat. Vestibulum porta dictum
+            nisi, vel blandit elit finibus in. Integer ut sodales metus. Aenean laoreet est
+            ligula, non pulvinar felis maximus dignissim. Aliquam iaculis feugiat leo sit
+            amet suscipit. Duis nunc purus, viverra sed ultrices nec, euismod nec augue. Nam
+            tristique tellus tellus, non volutpat tortor feugiat vitae. Aenean nec nulla
+            velit. Nullam convallis eu orci ac porttitor. Curabitur vehicula felis nibh,
+            quis feugiat lectus suscipit et. Morbi ac semper nibh, vitae placerat sapien.</p>
+
+            <p>Ut sed nisl non nisi dictum convallis. Vestibulum lacinia diam id tortor
+            volutpat, a ultrices nunc commodo. Fusce dignissim velit magna, eu fringilla sem
+            consectetur eu. Phasellus non risus sed odio auctor dignissim. Sed sit amet
+            dictum massa, nec blandit ipsum. Aliquam erat volutpat. Class aptent taciti
+            sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed
+            velit tellus, vulputate quis orci vel, mattis rutrum nisi. Sed eget orci
+            suscipit, posuere felis ac, consectetur erat. Mauris laoreet, nulla vitae
+            placerat tincidunt, nibh elit vulputate quam, id commodo lectus leo nec elit.
+            Nunc in facilisis diam, porttitor commodo enim. Aliquam vitae nunc augue.
+            Quisque volutpat tortor in enim facilisis vestibulum. Sed iaculis odio non
+            ligula ornare placerat.</p>
+
+            <p>Praesent efficitur sem sed leo cursus, iaculis volutpat nisi egestas.
+            Pellentesque imperdiet nisi felis, sed pellentesque leo finibus sit amet. Morbi
+            vel sem id magna commodo rutrum vitae nec erat. Vestibulum ante ipsum primis in
+            faucibus orci luctus et ultrices posuere cubilia Curae; Phasellus auctor nisi
+            lectus, a malesuada neque tempus scelerisque. Proin pretium nunc id ligula
+            fringilla, quis dignissim erat blandit. Sed posuere augue dui, vitae dignissim
+            libero pharetra et.</p>
             </div>
             <div class="col-md-1 col-sm-1 col-xs-1"></div>
 
           </div>
         </div>
 
-      <div class="footer"></div>
-    </div>
+      <div class="footer">
+        <div class="previous"><a href="postcard.html"><i class="mdi mdi-arrow-left"></i>&nbsp;Post Card</a></div>
+        <div class="next"><a href="statepark.html">State Park&nbsp;<i class="mdi mdi-arrow-right"></i></a></div>
+      </div>
 
   <script src="js/main.js"></script>
   <script src="js/sidebar.js"></script>

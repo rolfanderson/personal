@@ -18,7 +18,7 @@
   </head>
 
   <body>
-
+    <div class="modal-backdrop" hidden="true" id="sidebar-backdrop"></div>
     <div id="container">
       <div id="sidebar" class="pre-scrollable">
         <div class="sidebar-wrapper">
@@ -29,13 +29,22 @@
             <div id="table-contents">
               <table class="table table-hover">
                 <nav class="list">
-                  <div class="navbar-link"><span class="text-nowrap"><a href="index.html">Home</a></span></div>
-                  <div class="navbar-link"><span class="text-nowrap"><a href="maps.html">Maps</a></span></div>
-                    <div class="navbar-link sublink"><span class="text-nowrap"><a href="postcardmap.html">Post Card</a></span></div>
-                    <div class="navbar-link sublink"><span class="text-nowrap"><a href="fourcornersmap.html">Four Corners</a></span></div>
-                    <div class="navbar-link sublink"><span class="text-nowrap"><a href="stateparkmap.html">State Park</a></span></div>
-                    <div class="navbar-link sublink"><span class="text-nowrap"><a href="deathtourmap.html">Death Tour</a></span></div>
-                    <div class="navbar-link sublink"><span class="text-nowrap"><a href="utbaphmap.html">UTBAPH</a></span></div>
+                  <div class="navbar-link" data-toggle="collapse" data-target="#projects-submenu"><span class="text-nowrap"><a>Projects</a></span></div>
+                    <div id="projects-submenu" class="collapse in">
+                      <div class="navbar-link sublink"><span class="text-nowrap"><a href="postcard.html">Post Card</a></span></div>
+                      <div class="navbar-link sublink"><span class="text-nowrap"><a href="fourcorners.html">Four Corners</a></span></div>
+                      <div class="navbar-link sublink"><span class="text-nowrap"><a href="statepark.html">State Park</a></span></div>
+                      <div class="navbar-link sublink"><span class="text-nowrap"><a href="deathtour.html">Death Tour</a></span></div>
+                      <div class="navbar-link sublink"><span class="text-nowrap"><a href="utbaph.html">UTBAPH</a></span></div>
+                    </div>
+                  <div class="navbar-link" data-toggle="collapse" data-target="#maps-submenu"><span class="text-nowrap"><a>Maps</a></span></div>
+                    <div id="maps-submenu" class="collapse">
+                      <div class="navbar-link sublink"><span class="text-nowrap"><a href="postcardmap.html">Post Card</a></span></div>
+                      <div class="navbar-link sublink"><span class="text-nowrap"><a href="fourcornersmap.html">Four Corners</a></span></div>
+                      <div class="navbar-link sublink"><span class="text-nowrap"><a href="stateparkmap.html">State Park</a></span></div>
+                      <div class="navbar-link sublink"><span class="text-nowrap"><a href="deathtourmap.html">Death Tour</a></span></div>
+                      <div class="navbar-link sublink"><span class="text-nowrap"><a href="utbaphmap.html">UTBAPH</a></span></div>
+                    </div>
                   <div class="navbar-link"><span class="text-nowrap"><a href="index.html">Contact</a></span></div>
                   <div class="navbar-link"><span class="text-nowrap"><a href="index.html">CV</a></span></div>
                 </nav>
@@ -45,7 +54,6 @@
         </div>
       </div>
     </div>
-
     <div class="navbar navbar-inverse navbar-fixed-top">
       <div class="container-fluid">
         <div class="navbar-header">
@@ -53,7 +61,6 @@
         </div>
       </div>
     </div>
-
     <div id="header">
       <div class="row">
         <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
@@ -62,95 +69,89 @@
       </div>
     </div>
 
+    <div id="main">
+      <ul class="img-list">
+        <li>
+          <a href="postcard.html">
+            <img src="img/button-nps.png" width="150" height="150" />
+            <span class="text-content"><span>Post Card</span></span>
+          </a>
+        </li>
+        <li>
+          <a href="fourcorners.html">
+            <img class="img-circle" src="img/button-fc.png" width="150" height="150" />
+            <span class="text-content"><span>Four Corners</span></span>
+          </a>
+        </li>
+        <li>
+          <a href="statepark.html">
+            <img class="img-circle" src="img/button-fl.png" width="150" height="150" />
+            <span class="text-content"><span>State Park</span></span>
+          </a>
+        </li>
+        <li>
+          <a href="deathtour.html">
+            <img class="img-circle" src="img/button-pm.png" width="150" height="150" />
+            <span class="text-content"><span>Death Tour</span></span>
+          </a>
+        </li>
+        <li>
+          <a href="utbaph.html">
+            <img class="img-circle" src="img/button-ph.png" width="150" height="150" />
+            <span class="text-content"><span>UTBAPH</span></span>
+          </a>
+        </li>
+      </ul>
 
+      <div class="row main-text">
+        <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
 
-      <div class="modal-backdrop" hidden="true" id="sidebar-backdrop"></div>
-      <div id="container-fluid">
+        <h2 class="title">Abstract</h2>
 
-      </div>
-      <div id="main">
-          <ul class="img-list">
-            <li>
-              <a href="postcard.html">
-                <img src="img/button-nps.png" width="150" height="150" />
-                <span class="text-content"><span>Post Card</span></span>
-              </a>
-            </li>
-            <li>
-              <a href="fourcorners.html">
-                <img class="img-circle" src="img/button-fc.png" width="150" height="150" />
-                <span class="text-content"><span>Four Corners</span></span>
-              </a>
-            </li>
-            <li>
-              <a href="statepark.html">
-                <img class="img-circle" src="img/button-fl.png" width="150" height="150" />
-                <span class="text-content"><span>State Park</span></span>
-              </a>
-            </li>
-            <li>
-              <a href="deathtour.html">
-                <img class="img-circle" src="img/button-pm.png" width="150" height="150" />
-                <span class="text-content"><span>Death Tour</span></span>
-              </a>
-            </li>
-            <li>
-              <a href="utbaph.html">
-                <img class="img-circle" src="img/button-ph.png" width="150" height="150" />
-                <span class="text-content"><span>UTBAPH</span></span>
-              </a>
-            </li>
-          </ul>
+        <p>This project, currently nameless, develops a central theory of space,
+        upon which it emphasizes particular places demonstrative of these
+        principles. Rhetoric and composition dwells at what Diane Davis calls
+        "the spatial turn." Therefore this thesis first takes into account
+        some of the field's recent inquiries into writing in space. Place,
+        however, reminds us of the importance of material particulars.</p>
 
-          <div class="row main-text">
-            <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+        <p>Phasellus in accumsan augue, quis sollicitudin enim. Sed tempor est quis nisl
+        tristique, bibendum euismod eros posuere. Pellentesque sed maximus risus, quis
+        aliquet felis. Vestibulum pellentesque sodales feugiat. Vestibulum porta dictum
+        nisi, vel blandit elit finibus in. Integer ut sodales metus. Aenean laoreet est
+        ligula, non pulvinar felis maximus dignissim. Aliquam iaculis feugiat leo sit
+        amet suscipit. Duis nunc purus, viverra sed ultrices nec, euismod nec augue. Nam
+        tristique tellus tellus, non volutpat tortor feugiat vitae. Aenean nec nulla
+        velit. Nullam convallis eu orci ac porttitor. Curabitur vehicula felis nibh,
+        quis feugiat lectus suscipit et. Morbi ac semper nibh, vitae placerat sapien.</p>
 
-            <h2 class="title">Description</h2>
+        <p>Ut sed nisl non nisi dictum convallis. Vestibulum lacinia diam id tortor
+        volutpat, a ultrices nunc commodo. Fusce dignissim velit magna, eu fringilla sem
+        consectetur eu. Phasellus non risus sed odio auctor dignissim. Sed sit amet
+        dictum massa, nec blandit ipsum. Aliquam erat volutpat. Class aptent taciti
+        sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed
+        velit tellus, vulputate quis orci vel, mattis rutrum nisi. Sed eget orci
+        suscipit, posuere felis ac, consectetur erat. Mauris laoreet, nulla vitae
+        placerat tincidunt, nibh elit vulputate quam, id commodo lectus leo nec elit.
+        Nunc in facilisis diam, porttitor commodo enim. Aliquam vitae nunc augue.
+        Quisque volutpat tortor in enim facilisis vestibulum. Sed iaculis odio non
+        ligula ornare placerat.</p>
 
-            <p>This project, currently nameless, develops a central theory of space,
-            upon which it emphasizes particular places demonstrative of these
-            principles. Rhetoric and composition dwells at what Diane Davis calls
-            "the spatial turn." Therefore this thesis first takes into account
-            some of the field's recent inquiries into writing in space. Place,
-            however, reminds us of the importance of material particulars.</p>
-
-            <p>Phasellus in accumsan augue, quis sollicitudin enim. Sed tempor est quis nisl
-            tristique, bibendum euismod eros posuere. Pellentesque sed maximus risus, quis
-            aliquet felis. Vestibulum pellentesque sodales feugiat. Vestibulum porta dictum
-            nisi, vel blandit elit finibus in. Integer ut sodales metus. Aenean laoreet est
-            ligula, non pulvinar felis maximus dignissim. Aliquam iaculis feugiat leo sit
-            amet suscipit. Duis nunc purus, viverra sed ultrices nec, euismod nec augue. Nam
-            tristique tellus tellus, non volutpat tortor feugiat vitae. Aenean nec nulla
-            velit. Nullam convallis eu orci ac porttitor. Curabitur vehicula felis nibh,
-            quis feugiat lectus suscipit et. Morbi ac semper nibh, vitae placerat sapien.</p>
-
-            <p>Ut sed nisl non nisi dictum convallis. Vestibulum lacinia diam id tortor
-            volutpat, a ultrices nunc commodo. Fusce dignissim velit magna, eu fringilla sem
-            consectetur eu. Phasellus non risus sed odio auctor dignissim. Sed sit amet
-            dictum massa, nec blandit ipsum. Aliquam erat volutpat. Class aptent taciti
-            sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed
-            velit tellus, vulputate quis orci vel, mattis rutrum nisi. Sed eget orci
-            suscipit, posuere felis ac, consectetur erat. Mauris laoreet, nulla vitae
-            placerat tincidunt, nibh elit vulputate quam, id commodo lectus leo nec elit.
-            Nunc in facilisis diam, porttitor commodo enim. Aliquam vitae nunc augue.
-            Quisque volutpat tortor in enim facilisis vestibulum. Sed iaculis odio non
-            ligula ornare placerat.</p>
-
-            <p>Praesent efficitur sem sed leo cursus, iaculis volutpat nisi egestas.
-            Pellentesque imperdiet nisi felis, sed pellentesque leo finibus sit amet. Morbi
-            vel sem id magna commodo rutrum vitae nec erat. Vestibulum ante ipsum primis in
-            faucibus orci luctus et ultrices posuere cubilia Curae; Phasellus auctor nisi
-            lectus, a malesuada neque tempus scelerisque. Proin pretium nunc id ligula
-            fringilla, quis dignissim erat blandit. Sed posuere augue dui, vitae dignissim
-            libero pharetra et.</p>
-            </div>
-            <div class="col-md-2 col-sm-1 col-xs-1"></div>
-
-          </div>
+        <p>Praesent efficitur sem sed leo cursus, iaculis volutpat nisi egestas.
+        Pellentesque imperdiet nisi felis, sed pellentesque leo finibus sit amet. Morbi
+        vel sem id magna commodo rutrum vitae nec erat. Vestibulum ante ipsum primis in
+        faucibus orci luctus et ultrices posuere cubilia Curae; Phasellus auctor nisi
+        lectus, a malesuada neque tempus scelerisque. Proin pretium nunc id ligula
+        fringilla, quis dignissim erat blandit. Sed posuere augue dui, vitae dignissim
+        libero pharetra et.</p>
         </div>
+        <div class="col-md-2 col-sm-1 col-xs-1"></div>
+      </div>
+    </div>
 
-
-      <div class="footer"></div>
+    <div class="footer">
+      <div class="next"><a href="maps.html">Maps&nbsp;<i class="mdi mdi-arrow-right"></i></a></div>
+    </div>
 
   <script src="js/main.js"></script>
   <script src="js/sidebar.js"></script>

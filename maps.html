@@ -19,46 +19,56 @@
   </head>
 
   <body>
-    <div class="#">
-
-      <div class="modal-backdrop" hidden="true" id="sidebar-backdrop"></div>
-      <div id="container">
-        <div id="sidebar" class="pre-scrollable">
-          <div class="sidebar-wrapper">
-            <div class="panel panel-default" id="toc">
-              <div class="panel-heading">
-                <img class="img-circle logo clickable-row" src="img/button-home.png" data-href="index.html" width="80" height="80"></img>
-              </div>
-              <div id="table-contents">
-                <table class="table table-hover">
-                  <nav class="list">
-                    <div class="navbar-link"><span class="text-nowrap"><a href="index.html">Home</a></span></div>
-                    <div class="navbar-link"><span class="text-nowrap"><a href="maps.html">Maps</a></span></div>
+    <div class="modal-backdrop" hidden="true" id="sidebar-backdrop"></div>
+    <div id="container">
+      <div id="sidebar" class="pre-scrollable">
+        <div class="sidebar-wrapper">
+          <div class="panel panel-default" id="toc">
+            <div class="panel-heading">
+              <img class="img-circle logo clickable-row" src="img/button-home.png" data-href="index.html" width="80" height="80"></img>
+            </div>
+            <div id="table-contents">
+              <table class="table table-hover">
+                <nav class="list">
+                  <div class="navbar-link" data-toggle="collapse" data-target="#projects-submenu"><span class="text-nowrap"><a>Projects</a></span></div>
+                    <div id="projects-submenu" class="collapse">
+                      <div class="navbar-link sublink"><span class="text-nowrap"><a href="postcard.html">Post Card</a></span></div>
+                      <div class="navbar-link sublink"><span class="text-nowrap"><a href="fourcorners.html">Four Corners</a></span></div>
+                      <div class="navbar-link sublink"><span class="text-nowrap"><a href="statepark.html">State Park</a></span></div>
+                      <div class="navbar-link sublink"><span class="text-nowrap"><a href="deathtour.html">Death Tour</a></span></div>
+                      <div class="navbar-link sublink"><span class="text-nowrap"><a href="utbaph.html">UTBAPH</a></span></div>
+                    </div>
+                  <div class="navbar-link" data-toggle="collapse" data-target="#maps-submenu"><span class="text-nowrap"><a>Maps</a></span></div>
+                    <div id="maps-submenu" class="collapse in">
                       <div class="navbar-link sublink"><span class="text-nowrap"><a href="postcardmap.html">Post Card</a></span></div>
                       <div class="navbar-link sublink"><span class="text-nowrap"><a href="fourcornersmap.html">Four Corners</a></span></div>
                       <div class="navbar-link sublink"><span class="text-nowrap"><a href="stateparkmap.html">State Park</a></span></div>
                       <div class="navbar-link sublink"><span class="text-nowrap"><a href="deathtourmap.html">Death Tour</a></span></div>
                       <div class="navbar-link sublink"><span class="text-nowrap"><a href="utbaphmap.html">UTBAPH</a></span></div>
-                    <div class="navbar-link"><span class="text-nowrap"><a href="index.html">Contact</a></span></div>
-                    <div class="navbar-link"><span class="text-nowrap"><a href="index.html">CV</a></span></div>
-                  </nav>
-                </table>
-              </div>
+                    </div>
+                  <div class="navbar-link"><span class="text-nowrap"><a href="index.html">Contact</a></span></div>
+                  <div class="navbar-link"><span class="text-nowrap"><a href="index.html">CV</a></span></div>
+                </nav>
+              </table>
             </div>
           </div>
         </div>
       </div>
-        <div class="#" id="main">
-          <div id="header">
-            <div class="row">
-              <div id="sidebar-toggle-btn"><i class="mdi mdi-menu" aria-hidden="true" onclick="openNav()"></i></div>
-            </div>
-            <div class="row">
-              <div class="col-md-9 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
-                <h1 id="header-text">Maps</h1>
-              </div>
-            </div>
-          </div>
+    </div>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <div id="sidebar-toggle-btn"><i class="mdi mdi-menu" aria-hidden="true" onclick="openNav()"></i></div>
+        </div>
+      </div>
+    </div>
+    <div id="header">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+          <h1 class="header-text">Maps</h1>
+        </div>
+      </div>
+    </div>
 
           <ul class="img-list">
             <li>
@@ -208,8 +218,10 @@
           </div>
         </div>
 
-      <div class="footer"></div>
-    </div>
+      <div class="footer">
+        <div class="previous"><a href="index.html"><i class="mdi mdi-arrow-left"></i>&nbsp;Home</a></div>
+      </div>
+
 
   <script src="js/main.js"></script>
   <script src="js/sidebar.js"></script>

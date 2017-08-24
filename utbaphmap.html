@@ -21,7 +21,9 @@
     <script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script>
 
     <style>
-      .navbar-inverse {border-top: 5px solid #F44336;}
+      .navbar-inverse {border-top: 6px solid #F44336;}
+      .navbar-link a:hover {background-color: #F44336 !important;}
+      .sublink a:hover, .active a {background-color: #34302D !important; color: #F44336 !important;}
     </style>
   </head>
 
@@ -46,13 +48,22 @@
             <div id="table-contents">
               <table class="table table-hover">
                 <nav class="list">
-                  <div class="navbar-link"><span class="text-nowrap"><a href="index.html">Home</a></span></div>
-                  <div class="navbar-link"><span class="text-nowrap"><a href="maps.html">Maps</a></span></div>
-                    <div class="navbar-link sublink"><span class="text-nowrap"><a href="postcardmap.html">Post Card</a></span></div>
-                    <div class="navbar-link sublink"><span class="text-nowrap"><a href="fourcornersmap.html">Four Corners</a></span></div>
-                    <div class="navbar-link sublink"><span class="text-nowrap"><a href="stateparkmap.html">State Park</a></span></div>
-                    <div class="navbar-link sublink"><span class="text-nowrap"><a href="deathtourmap.html">Death Tour</a></span></div>
-                    <div class="navbar-link sublink"><span class="text-nowrap"><a href="utbaphmap.html">UTBAPH</a></span></div>
+                  <div class="navbar-link" data-toggle="collapse" data-target="#projects-submenu"><span class="text-nowrap"><a>Projects</a></span></div>
+                    <div id="projects-submenu" class="collapse">
+                      <div class="navbar-link sublink"><span class="text-nowrap"><a href="postcard.html">Post Card</a></span></div>
+                      <div class="navbar-link sublink"><span class="text-nowrap"><a href="fourcorners.html">Four Corners</a></span></div>
+                      <div class="navbar-link sublink"><span class="text-nowrap"><a href="statepark.html">State Park</a></span></div>
+                      <div class="navbar-link sublink"><span class="text-nowrap"><a href="deathtour.html">Death Tour</a></span></div>
+                      <div class="navbar-link sublink"><span class="text-nowrap"><a href="utbaph.html">UTBAPH</a></span></div>
+                    </div>
+                  <div class="navbar-link" data-toggle="collapse" data-target="#maps-submenu"><span class="text-nowrap"><a>Maps</a></span></div>
+                    <div id="maps-submenu" class="collapse in">
+                      <div class="navbar-link sublink"><span class="text-nowrap"><a href="postcardmap.html">Post Card</a></span></div>
+                      <div class="navbar-link sublink"><span class="text-nowrap"><a href="fourcornersmap.html">Four Corners</a></span></div>
+                      <div class="navbar-link sublink"><span class="text-nowrap"><a href="stateparkmap.html">State Park</a></span></div>
+                      <div class="navbar-link sublink"><span class="text-nowrap"><a href="deathtourmap.html">Death Tour</a></span></div>
+                      <div class="navbar-link sublink active"><span class="text-nowrap"><a href="utbaphmap.html">UTBAPH</a></span></div>
+                    </div>
                   <div class="navbar-link"><span class="text-nowrap"><a href="index.html">Contact</a></span></div>
                   <div class="navbar-link"><span class="text-nowrap"><a href="index.html">CV</a></span></div>
                 </nav>
