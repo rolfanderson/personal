@@ -6,7 +6,7 @@
     <meta name="viewport" content="initial-scale=1,user-scalable=no,maximum-scale=1,width=device-width">
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-capable" content="yes">
-    <title>Map Template</title>
+    <title>Map</title>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.materialdesignicons.com/2.0.46/css/materialdesignicons.min.css">
@@ -37,18 +37,19 @@
         <div class="sidebar-wrapper">
           <div class="panel panel-default" id="toc">
             <div class="panel-heading">
-              <img class="img-circle logo" src="img/utbaph.jpg" width="80" height="80"></img>
+              <img class="img-circle logo clickable-row" src="img/button-home.png" data-href="index.html" width="80" height="80"></img>
             </div>
             <div id="table-contents">
               <table class="table table-hover">
                 <nav class="list">
-                  <div class="navbar-link"><span class="text-nowrap"><a href="index.html">Home</a></span></div>
-                  <div class="navbar-link"><span class="text-nowrap"><a href="map.html">Projects</a></span></div>
-                    <div class="navbar-link sublink"><span class="text-nowrap"><a href="postcard.html">Post Card</a></span></div>
-                    <div class="navbar-link sublink"><span class="text-nowrap"><a href="fourcorners.html">Four Corners</a></span></div>
-                    <div class="navbar-link sublink"><span class="text-nowrap"><a href="statepark.html">State Park</a></span></div>
-                    <div class="navbar-link sublink"><span class="text-nowrap"><a href="deathtour.html">Death Tour</a></span></div>
-                    <div class="navbar-link sublink"><span class="text-nowrap"><a href="utbaph.html">UTBAPH</a></span></div>
+                  <div class="navbar-link" data-toggle="collapse" data-target="#projects-submenu"><span class="text-nowrap"><a>Projects</a></span></div>
+                    <div id="projects-submenu" class="collapse in">
+                      <div class="navbar-link sublink"><span class="text-nowrap"><a href="postcard.html">Post Card</a></span></div>
+                      <div class="navbar-link sublink"><span class="text-nowrap"><a href="fourcorners.html">Four Corners</a></span></div>
+                      <div class="navbar-link sublink"><span class="text-nowrap"><a href="statepark.html">State Park</a></span></div>
+                      <div class="navbar-link sublink"><span class="text-nowrap"><a href="deathtour.html">Death Tour</a></span></div>
+                      <div class="navbar-link sublink"><span class="text-nowrap"><a href="utbaph.html">UTBAPH</a></span></div>
+                    </div>
                   <div class="navbar-link"><span class="text-nowrap"><a href="map.html">Map</a></span></div>
                   <div class="navbar-link"><span class="text-nowrap"><a href="index.html">Contact</a></span></div>
                   <div class="navbar-link"><span class="text-nowrap"><a href="index.html">CV</a></span></div>
