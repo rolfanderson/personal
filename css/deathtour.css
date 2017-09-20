@@ -1,15 +1,7 @@
-.navbar, #header, .footer {
+.navbar, #header, .footer, .next, .previous {
   background-color: #3F51B5;
 }
 
 .title, .active a {
   color: #3F51B5;
-}
-
-.previous {
-  background-color: #FFC107;
-}
-
-.next {
-  background-color: #F44336;
 }
