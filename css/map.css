@@ -30,6 +30,16 @@
     z-index: 2;
 }
 
+#home-btn {
+  position: absolute;
+  right: 30px;
+  top: 20px;
+}
+
+#home-btn a {
+  color: #FFFFFF;
+}
+
 /*** Sidebar ***/
 .panel-heading {
   border-bottom: 1px solid #474441 !important;

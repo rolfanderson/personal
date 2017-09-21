@@ -26,27 +26,34 @@ var fcIcon = L.icon({
 
 var flIcon = L.icon({
               iconUrl: 'img/button-fl.png',
-              iconSize: [25, 25],
+              iconSize: [35, 35],
 });
 
 var pmIcon = L.icon({
               iconUrl: 'img/button-pm.png',
-              iconSize: [25, 25],
+              iconSize: [35, 35],
 });
 
 var phIcon = L.icon({
               iconUrl: 'img/button-ph.png',
-              iconSize: [25, 25],
+              iconSize: [35, 35],
 });
 
 var marker =
 
-  L.marker([44.6621, -111.1041], {icon: npsIcon}).addTo(map).bindPopup("<a class='popup'>Post Card</a>");
+  L.marker([44.6556942,-111.094781], {icon: npsIcon}).addTo(map).bindPopup("<a class='popup' href='postcard.html'>Post Card</a>");
 
-  L.marker([36.998976, -109.045172], {icon: fcIcon}).addTo(map).bindPopup("<a class='popup'>Four Corners</a>");
+  L.marker([36.998976, -109.045172], {icon: fcIcon}).addTo(map).bindPopup("<a class='popup' href='fourcorners.html'>Four Corners</a>");
 
-  //L.marker([28.5, -82], {icon: flIcon}).addTo(map).bindPopup("<a class='popup'>State Park</a>");
+  L.marker([30.455109, -84.253419], {icon: flIcon}).addTo(map).bindPopup("<a class='popup' href='statepark.html'>State Park</a>");
 
-  L.marker([28.4187304,-81.581206], {icon: pmIcon}).addTo(map).bindPopup("<a class='popup'>Death Tour</a>");
+  L.marker([28.4187304,-81.581206], {icon: pmIcon}).addTo(map).bindPopup("<a class='popup' href='deathtour.html'>Death Tour</a>");
 
-  L.marker([29.67264339999999,-82.33887549999997], {icon: phIcon}).addTo(map).bindPopup("<a class='popup'>UTBAPH</a>");
+  L.marker([29.67264339999999,-82.33887549999997], {icon: phIcon}).addTo(map).bindPopup("<a class='popup' href='pizzaparlor.html'>Pizza Parlor</a>");
+
+
+/*map.on('popupopen', function(centerMarker) {
+      var cM = map.project(centerMarker.popup._latlng);
+      cM.y -= centerMarker.popup._container.clientHeight/2
+      map.setView(map.unproject(cM), 10, {animate: true});
+  });*/

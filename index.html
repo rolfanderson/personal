@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/sidebar.css">
     <link rel="stylesheet" href="css/mdi.css">
+    <link rel="icon" href="img/favicon.ico">
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   </head>
@@ -31,8 +33,8 @@
                 <nav class="list">
                   <div class="navbar-link" data-toggle="collapse" data-target="#projects-submenu"><span class="text-nowrap"><a>Projects</a></span></div>
                     <div id="projects-submenu" class="collapse in">
-                      <div class="navbar-link sublink"><span class="text-nowrap"><a href="postcard.html">Post Card</a></span></div>
                       <div class="navbar-link sublink"><span class="text-nowrap"><a href="fourcorners.html">Four Corners</a></span></div>
+                      <div class="navbar-link sublink"><span class="text-nowrap"><a href="postcard.html">Post Card</a></span></div>
                       <div class="navbar-link sublink"><span class="text-nowrap"><a href="statepark.html">State Park</a></span></div>
                       <div class="navbar-link sublink"><span class="text-nowrap"><a href="deathtour.html">Death Tour</a></span></div>
                       <div class="navbar-link sublink"><span class="text-nowrap"><a href="pizzaparlor.html">Pizza Parlor</a></span></div>
@@ -53,22 +55,24 @@
           <div id="sidebar-toggle-btn"><i class="mdi mdi-menu" aria-hidden="true" onclick="openNav()"></i></div>
           <div id="map-btn"><a href="map.html"><i class="mdi mdi-map-marker" aria-hidden="true"></i></a></div>
         </div>
-        <h1>Home</h1>
+        <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+          <h1>Home</h1>
+        </div>
       </div>
     </nav>
 
     <div class="container" id="main">
       <ul class="img-list">
         <li>
-          <a href="postcard.html">
-            <img src="img/button-nps.png" width="150" height="150" />
-            <span class="text-content"><span>Post Card</span></span>
-          </a>
-        </li>
-        <li>
           <a href="fourcorners.html">
             <img class="img-circle" src="img/button-fc.png" width="150" height="150" />
             <span class="text-content"><span>Four Corners</span></span>
+          </a>
+        </li>
+        <li>
+          <a href="postcard.html">
+            <img src="img/button-nps.png" width="150" height="150" />
+            <span class="text-content"><span>Post Card</span></span>
           </a>
         </li>
         <li>
@@ -78,15 +82,15 @@
           </a>
         </li>
         <li>
-          <a href="deathtour.html">
-            <img class="img-circle" src="img/button-pm.png" width="150" height="150" />
-            <span class="text-content"><span>Death Tour</span></span>
-          </a>
-        </li>
-        <li>
           <a href="pizzaparlor.html">
             <img class="img-circle" src="img/button-ph.png" width="150" height="150" />
             <span class="text-content"><span>Pizza Parlor</span></span>
+          </a>
+        </li>
+        <li>
+          <a href="deathtour.html">
+            <img class="img-circle" src="img/button-pm.png" width="150" height="150" />
+            <span class="text-content"><span>Death Tour</span></span>
           </a>
         </li>
       </ul>

@@ -17,6 +17,7 @@ body {
 }
 
 p {
+  font-family: 'Raleway', sans-serif;
   font-size: 18px;
   line-height: 30px;
 }
@@ -27,34 +28,6 @@ p {
 
 .no-padding {
   padding: 0px !important;
-}
-
-#map-btn {
-  position: absolute;
-  right: 40px;
-  top: 24px;
-}
-
-#map-btn a {
-  color: #FFFFFF;
-}
-
-nav.navbar.shrink {
-	max-height: 60px;
-}
-
-nav.navbar h1 {
-  padding-top: 100px;
-  padding-left: 225px;
-  color: #fff;
-  font-size: 56px;
-  font-weight: 400;
-}
-
-nav.navbar.shrink h1 {
-  font-size: 20px;
-  padding-top: 0px;
-  padding-left: 100px;
 }
 
 .navbar-inverse {
@@ -82,6 +55,38 @@ nav.navbar.shrink h1 {
   border-left: 4px solid #2196F3;
 }
 
+nav.navbar.shrink {
+	max-height: 60px;
+}
+
+nav.navbar h1 {
+  padding-top: 100px;
+  color: #fff;
+  font-size: 56px;
+  font-weight: 400;
+}
+
+nav.navbar.shrink h1 {
+  font-size: 20px;
+  font-weight: 400;
+  padding: 0px;
+  position: fixed;
+  left: 65px;
+  top: 0px;
+}
+
+#map-btn {
+  position: absolute;
+  right: 30px;
+  top: 24px;
+}
+
+#map-btn a {
+  color: #FFFFFF;
+}
+
+/***** Under Nav *****/
+
 .text-wrap {
   padding-left: 150px;
   margin: 0 auto;
@@ -95,6 +100,14 @@ nav.navbar.shrink h1 {
   padding-top: 50px;
   padding-bottom: 20px;
   color: #2196F3;
+}
+
+.epigraph{
+  padding-bottom: 20px;
+}
+.epigraph p {
+  font-style: italic;
+  font-size: 16px;
 }
 
 #sidebar {
